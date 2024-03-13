@@ -174,7 +174,10 @@ ol {
 	background: #5c00ce;
 	letter-spacing: 2px;
 }
-
+.primary-btn:hover{
+	color: #000000;
+	background: #5d00ce36;
+}
 .primary-btn.border-btn {
 	background: transparent;
 	border: 2px solid #5c00ce;
@@ -192,6 +195,11 @@ ol {
 	display: inline-block;
 	padding: 14px 30px;
 	width: 100%;
+}
+.site-btn:hover{
+	color: #000000;
+	background: #5d00ce36;
+
 }
 
 /* Preloder */
@@ -792,11 +800,12 @@ ol {
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
 	margin-bottom: 30px;
+	box-shadow: 0px 3px 30px rgba(22, 41, 124, 0.1);
 }
 
 .youtube__item:hover {
 	-webkit-box-shadow: 0px 3px 30px rgba(22, 41, 124, 0.1);
-	box-shadow: 0px 3px 30px rgba(22, 41, 124, 0.1);
+	box-shadow: 0px 3px 30px rgba(9, 16, 50, 0.1);
 }
 
 .youtube__item__pic {
